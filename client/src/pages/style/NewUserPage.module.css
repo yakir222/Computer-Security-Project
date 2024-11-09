@@ -1,0 +1,60 @@
+:local(body) {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  :local(container) {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  :local(h1) {
+    text-align: center;
+    color: #333;
+  }
+  
+  :local(label) {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  :local(input) {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  :local(button) {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  :local(button:hover) {
+    background-color: #45a049;
+  }
+  
+  :local(error-message) {
+    color: red;
+    margin-bottom: 16px;
+  }
+  
+  :local(success-message) {
+    color: #4caf50;
+    margin-bottom: 16px;
+  }
+  

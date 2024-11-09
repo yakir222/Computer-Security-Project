@@ -1,0 +1,23 @@
+{
+    "password_length": 10,
+    "password_history": 3,
+    "block_dictionary_use": [
+        "word",
+        "pass",
+        "password",
+        "roizimon",
+        "Aa123456",
+        "Aa123456123456"
+    ],
+    "login_attempts": {
+        "limit": 3,
+        "cooldown_sec": 60
+    },
+    "complex_password_requirements": {
+        "uppercase": true,
+        "lowercase": true,
+        "numbers": true,
+        "special_characters": true
+    },
+    "database_url": "db/app.sqlite"
+}

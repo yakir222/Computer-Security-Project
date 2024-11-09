@@ -1,0 +1,31 @@
+.customer-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customer-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #05fbf7; /* Add pink background color */
+}
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #05fbf7; /* Add pink background color */
+  border: #000;
+  border-radius: 19px;
+  border-style: dashed;
+}
+
+.customer-table th {
+  background-color: rgb(255, 180, 192);
+}
+
+.customer-table tr {
+  background-color: #f2f2f2;
+  /* border-style: dashed; */
+}
+
+.customer-table tr:hover {
+  background-color: #ddd;
+}
